@@ -18,13 +18,5 @@ class Stack:
         if not self.is_empty():
             return self.items[-1]
 
-    
-s = Stack()
 
-s.push("A")
-s.push("B")
-s.push("C")
-s.push("D")
-s.push("E")
-print(s.peek())
 
